@@ -31,7 +31,7 @@ Build from source: https://github.com/supercollider/sc3-plugins
 * `cd sc3-plugins`
 * `mkdir build; cd build`
 * `cmake -DCMAKE_BUILD_TYPE=Release -DNATIVE=ON ..`
-* `make`
+* `make`*
 * `sudo make install`
 * `sudo ldconfig`
 
@@ -41,3 +41,11 @@ https://foxdot.org/
 * `sudo pip3 install setuptools`
 * `sudo apt-get install python3-tk`
 * `sudo pip3 install FoxDot`
+
+# Atom Editor
+https://atom.io/
+https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux
+* `wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -`
+* `sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'`
+* `sudo apt-get update`
+* `sudo apt-get install atom`
