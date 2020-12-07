@@ -34,3 +34,9 @@ Build from source: https://github.com/supercollider/sc3-plugins
 * `make`
 * `sudo make install`
 * `sudo ldconfig`
+
+# FoxDot
+https://foxdot.org/
+
+* `sudo apt-get install python3-tk`
+* `sudo pip3 install FoxDot`
