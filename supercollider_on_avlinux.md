@@ -21,3 +21,16 @@ Build from source: https://github.com/supercollider/supercollider/blob/develop/R
 * `cmake -DCMAKE_BUILD_TYPE=Release -DNATIVE=ON ..`
 * `make`
 * `sudo make install`
+* `sudo ldconfig`
+
+# SuperCollider SC3 Plugins
+Build from source: https://github.com/supercollider/sc3-plugins
+
+* `cd ~/supercollider_build`
+* `git clone --recursive https://github.com/supercollider/sc3-plugins.git`
+* `cd sc3-plugins`
+* `mkdir build; cd build`
+* `cmake -DCMAKE_BUILD_TYPE=Release -DNATIVE=ON ..`
+* `make`
+* `sudo make install`
+* `sudo ldconfig`
