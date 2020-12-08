@@ -31,7 +31,7 @@ Build from source: https://github.com/supercollider/sc3-plugins
 * `cd sc3-plugins`
 * `mkdir build; cd build`
 * `cmake -DCMAKE_BUILD_TYPE=Release -DNATIVE=ON ..`
-* `make`*
+* `make`
 * `sudo make install`
 * `sudo ldconfig`
 
